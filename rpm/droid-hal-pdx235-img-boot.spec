@@ -1,6 +1,6 @@
 %define device pdx235
 
-%define mkbootimg_cmd mkbootimg --cmdline 'androidboot.selinux=permissive audit=0' --header_version 3 --os_version 13.0.0 --os_patch_level 2023-09 --kernel %{kernel} --ramdisk %{initrd} --output
+%define mkbootimg_cmd mkbootimg --cmdline 'androidboot.selinux=permissive audit=0' --header_version 3 --os_version 14.0.0 --os_patch_level 2024-05 --kernel %{kernel} --ramdisk %{initrd} --output
 
 %define root_part_label userdata
 
