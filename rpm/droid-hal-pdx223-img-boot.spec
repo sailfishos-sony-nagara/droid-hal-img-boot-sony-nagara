@@ -13,7 +13,4 @@
 
 %define initrd_use_lz4 1
 
-# missing dependency
-BuildRequires: python3-base
-
 %include initrd/droid-hal-device-img-boot.inc
